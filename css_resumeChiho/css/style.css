@@ -11,8 +11,19 @@
 /* Global styles
 ------------------------ */
 body {
-	
+	font-family: 'Ubuntu', sans-serif;
 }
+h1, h2 {
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: 400px;
+}
+h1 {
+	font-size: 80px;
+}
+h2 {
+	font-size: 40px;
+}
+
 a {
 	color: #004E89;
 }

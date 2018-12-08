@@ -1,5 +1,6 @@
 /* Color palette
 #FF5C21 - Main Orange
+#FF4500 - favorite Orange
 #FF8B5E - Sub Orange
 #FFE1CE - Light Orange
 #004E89 - Dark blue
@@ -140,7 +141,11 @@ h3 ~ p {
 /* Education
 ------------------------ */
 .education {
-	background: #FFE1CE;
+	/*background: #FFE1CE;*/
+	background: linear-gradient(rgba(255, 251, 234, 0.4), rgba(255,99,71, 0.6)),
+				url(../images/peter-gabas-220313-unsplash.jpg) no-repeat fixed;
+				background-size: 100%;
+				color: #FFFBEA;
 }
 p + h3 {
 	margin-top: 30px;
